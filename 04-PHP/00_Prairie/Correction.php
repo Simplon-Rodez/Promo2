@@ -22,8 +22,8 @@
     <h1>Exercice PHP - Prairie</h1>
     <form>
       <label for="date">Date</label>
-      <input id="date" name="date" type="date"></input>
-      <input type="submit" value="Valider"></input>
+      <input id="date" name="date" type="date">
+      <input type="submit" value="Valider">
     </form>
     <?php
     if (isset($_GET['date'])) {
